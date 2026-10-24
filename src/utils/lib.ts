@@ -176,15 +176,17 @@ export const PORTFOLIO_CONFIG = {
     // Quick-scan stack pills shown in Hero
     heroStackPills: [
       "Redis Queues & Pub/Sub",
+      "RabbitMQ",
       "Node.js",
       "ASP.NET Core Web API",
       "WebSockets",
       "Prisma ORM",
       "PostgreSQL",
       "TypeScript",
+      "JavaScript",
       "React.js",
       "Next.js 15",
-      "Convex",
+      "Docker",
     ],
 
     // 4 Mini Telemetry cards below portrait in Hero
@@ -327,10 +329,23 @@ export const PORTFOLIO_CONFIG = {
           highlight: true,
         },
         {
+          name: "JavaScript (ES6+)",
+          level: "Core Runtime",
+          context:
+            "Asynchronous event loops, binary array buffers & high-speed DOM/WebSocket client engines",
+          highlight: true,
+        },
+        {
           name: "Tailwind CSS",
           level: "Design Systems",
           context:
             "Custom industrial design tokens, responsive layouts & 40%+ component reusability with shadcn/ui",
+        },
+        {
+          name: "Framer Motion",
+          level: "60fps Motion",
+          context:
+            "Hardware-accelerated layout orchestration, spring physics & sub-200ms micro-interactions",
         },
         {
           name: "Redux Toolkit",
@@ -358,6 +373,13 @@ export const PORTFOLIO_CONFIG = {
           level: "Queues & Pub/Sub",
           context:
             "High-throughput trade signal queues, Pub/Sub fan-out, rate limiting & sub-millisecond caching",
+          highlight: true,
+        },
+        {
+          name: "RabbitMQ",
+          level: "Message Broker",
+          context:
+            "AMQP message routing, dead-letter exchanges, durable worker queues & decoupled microservice event buses",
           highlight: true,
         },
         {

@@ -38,3 +38,24 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #6366f1;
 }
+
+/* Hardware-accelerated Left-to-Right Tech Stack Stream */
+@keyframes marquee-ltr {
+  0% {
+    transform: translate3d(-50%, 0, 0);
+  }
+  100% {
+    transform: translate3d(0%, 0, 0);
+  }
+}
+
+.animate-marquee-ltr {
+  display: flex;
+  width: max-content;
+  will-change: transform;
+  animation: marquee-ltr 38s linear infinite;
+}
+
+.animate-marquee-ltr:hover {
+  animation-play-state: paused;
+}

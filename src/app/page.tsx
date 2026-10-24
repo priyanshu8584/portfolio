@@ -1,6 +1,7 @@
 import React from "react";
 import { Navbar } from "@/components/Navbar";
 import { HeroSection } from "@/components/HeroSection";
+import { TechStackStream } from "@/components/TechStackStream";
 import { MetricsShowcase } from "@/components/MetricsShowcase";
 import { SkillsArchitecture } from "@/components/SkillsArchitecture";
 import { ProjectsShowcase } from "@/components/ProjectsShowcase";
@@ -12,6 +13,7 @@ export default function PortfolioHomePage() {
       <Navbar />
       <main>
         <HeroSection />
+        <TechStackStream />
         <MetricsShowcase />
         <SkillsArchitecture />
         <ProjectsShowcase />
