@@ -18,23 +18,23 @@ import {
 import { PORTFOLIO_CONFIG, DossierStat } from "@/utils/lib";
 
 const containerVariants = {
-  hidden: { opacity: 0 },
+  hidden: { opacity: 1 },
   visible: {
     opacity: 1,
     transition: {
-      staggerChildren: 0.07,
-      delayChildren: 0.05,
+      staggerChildren: 0.06,
+      delayChildren: 0.02,
     },
   },
 };
 
 const lineRevealVariants = {
-  hidden: { opacity: 0, y: 28 },
+  hidden: { opacity: 1, y: 14 },
   visible: {
     opacity: 1,
     y: 0,
     transition: {
-      duration: 0.45,
+      duration: 0.35,
       ease: [0.16, 1, 0.3, 1],
     },
   },
@@ -252,7 +252,7 @@ export function HeroSection() {
 
           {/* Right 5 Columns: Engineer Dossier & Editable Avatar */}
           <motion.div
-            initial={{ opacity: 0, y: 24 }}
+            initial={{ opacity: 1, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
             style={{
