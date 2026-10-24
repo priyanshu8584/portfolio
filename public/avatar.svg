@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <rect width="400" height="400" fill="#0A0C10"/>
+  <!-- Subtle architectural grid lines -->
+  <line x1="0" y1="80" x2="400" y2="80" stroke="#181C24" stroke-width="1"/>
+  <line x1="0" y1="200" x2="400" y2="200" stroke="#181C24" stroke-width="1"/>
+  <line x1="0" y1="320" x2="400" y2="320" stroke="#181C24" stroke-width="1"/>
+  <line x1="80" y1="0" x2="80" y2="400" stroke="#181C24" stroke-width="1"/>
+  <line x1="200" y1="0" x2="200" y2="400" stroke="#181C24" stroke-width="1"/>
+  <line x1="320" y1="0" x2="320" y2="400" stroke="#181C24" stroke-width="1"/>
+
+  <!-- Geometric editorial frame -->
+  <rect x="32" y="32" width="336" height="336" stroke="#262C3A" stroke-width="1.5"/>
+  <path d="M32 48V32H48" stroke="#CCFF00" stroke-width="2.5"/>
+  <path d="M368 48V32H352" stroke="#CCFF00" stroke-width="2.5"/>
+  <path d="M32 352V368H48" stroke="#6366F1" stroke-width="2.5"/>
+  <path d="M368 352V368H352" stroke="#6366F1" stroke-width="2.5"/>
+
+  <!-- Stylized minimalist developer silhouette (John Snow) -->
+  <!-- Shoulders / Jacket -->
+  <path d="M82 368C86 294 128 262 200 262C272 262 314 294 318 368" fill="#12161F" stroke="#3B4254" stroke-width="2"/>
+  <!-- Collar details -->
+  <path d="M156 265L200 318L244 265" stroke="#6366F1" stroke-width="2"/>
+  <!-- Neck -->
+  <rect x="178" y="218" width="44" height="52" rx="10" fill="#171C28" stroke="#3B4254" stroke-width="2"/>
+  <!-- Head -->
+  <rect x="144" y="102" width="112" height="132" rx="48" fill="#141822" stroke="#E2E8F0" stroke-width="2"/>
+  <!-- Stylized Wavy Dark Hair ("John Snow" signature silhouette) -->
+  <path d="M138 158C132 114 156 82 200 82C244 82 268 114 262 158C258 134 242 118 214 116C198 115 184 122 172 118C156 114 144 134 138 158Z" fill="#0B0E14" stroke="#6366F1" stroke-width="2"/>
+  <!-- Minimalist Glasses / Visor Line -->
+  <rect x="160" y="152" width="34" height="20" rx="4" fill="#0A0C10" stroke="#CCFF00" stroke-width="2"/>
+  <rect x="206" y="152" width="34" height="20" rx="4" fill="#0A0C10" stroke="#CCFF00" stroke-width="2"/>
+  <line x1="194" y1="160" x2="206" y2="160" stroke="#CCFF00" stroke-width="2"/>
+  <!-- Subtle beard/jawline accent -->
+  <path d="M156 196C164 218 182 226 200 226C218 226 236 218 244 196" stroke="#475569" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Technical HUD Spec Label -->
+  <text x="48" y="60" fill="#64748B" font-family="monospace" font-size="11" letter-spacing="2">ID // JS-001</text>
+  <text x="268" y="60" fill="#CCFF00" font-family="monospace" font-size="11" letter-spacing="1.5">REPLACE_IMG</text>
+</svg>
