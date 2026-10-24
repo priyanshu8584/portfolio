@@ -651,7 +651,7 @@ export const PORTFOLIO_CONFIG = {
         "Real-Time Event Ticketing Marketplace With Automated Stripe Connect Multi-Party Payouts",
       status: "LIVE DEPLOYMENT",
       scaleBadge: "Stripe Connect + Real-Time Queue",
-      imageUrl: "/screenshots/ticketr.png?v=3",
+      imageUrl: "/screenshots/ticketr-live.png",
       description:
         "A multi-vendor event ticketing platform (ticket-book-three.vercel.app) featuring a sleek dark/light editorial interface, real-time ticket availability locking across 12+ live stadium & concert events, waiting-list queue orchestration, automated vendor onboarding, and instant split payouts powered by Stripe Connect.",
       highlights: [
