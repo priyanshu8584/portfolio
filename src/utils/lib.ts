@@ -161,7 +161,7 @@ export const PORTFOLIO_CONFIG = {
     },
     subheadline: env(
       "NEXT_PUBLIC_HERO_SUBHEADLINE",
-      "I engineer high-throughput financial execution platforms, sub-200ms reactive marketplaces, and ultra-snappy React/Next.js interfaces. Built and scaled TradeCopier.org to 5,000+ active traders across 8+ broker platforms alongside real-time systems powered by Redis, Node.js, ASP.NET Web API, WebSockets, and Prisma."
+      "I engineer high-throughput financial execution platforms, sub-200ms reactive marketplaces, and ultra-snappy React/Next.js interfaces. Built and scaled TradeCopier.org to 5,000+ active traders across 4+ trading platforms alongside real-time systems powered by Redis, Node.js, ASP.NET Web API, WebSockets, and Prisma."
     ),
 
     ctaPrimary: {
@@ -269,7 +269,7 @@ export const PORTFOLIO_CONFIG = {
       ),
       description: env(
         "NEXT_PUBLIC_METRIC_2_DESC",
-        "Engineered cloud-hosted trade routing across 8 trading platforms (MT4, MT5, cTrader, NinjaTrader 8, DXtrade, TradeLocker, MatchTrader, VertexFX) with zero personal VPS required."
+        "Engineered cloud-hosted trade routing across 4+ trading platforms (MT4, MT5, cTrader & NinjaTrader) with zero personal VPS required."
       ),
       tag: "LIVE CONCURRENCY",
       statusText: "STATUS: TRADECOPIER.ORG",
@@ -495,9 +495,9 @@ export const PORTFOLIO_CONFIG = {
         },
         {
           name: "Financial App Architecture",
-          level: "8+ Broker Platforms",
+          level: "4+ Trading Platforms",
           context:
-            "MT4, MT5, cTrader, NinjaTrader 8, DXtrade, TradeLocker, MatchTrader & VertexFX routing",
+            "MT4, MT5, cTrader & NinjaTrader cloud trade execution and cross-platform signal routing",
           highlight: true,
         },
         {
@@ -545,10 +545,10 @@ export const PORTFOLIO_CONFIG = {
       ),
       description: env(
         "NEXT_PUBLIC_PROJECT_1_DESCRIPTION",
-        "A high-performance, cloud-hosted Forex and prop-firm trade copying platform (tradecopier.org) engineered to scale. Built to replicate trading signals from source (master) accounts to connected destination (follower) accounts across 8 major trading platforms (MetaTrader 4, MetaTrader 5, cTrader, NinjaTrader 8, DXtrade, TradeLocker, MatchTrader, and VertexFX) with sub-second latency — scaling to over 5,000 concurrent active users without requiring a personal VPS."
+        "A high-performance, cloud-hosted Forex and prop-firm trade copying platform (tradecopier.org) engineered to scale. Built to replicate trading signals from source (master) accounts to connected destination (follower) accounts across 4+ major trading platforms (MetaTrader 4, MetaTrader 5, cTrader, and NinjaTrader) with sub-second latency — scaling to over 5,000 concurrent active users without requiring a personal VPS."
       ),
       highlights: [
-        "Engineered a high-throughput transaction pipeline using Redis queues and REST/WebSocket gateways to process concurrent financial trade signals instantly across MT4, MT5, cTrader, NinjaTrader 8, DXtrade, TradeLocker, MatchTrader, and VertexFX.",
+        "Engineered a high-throughput transaction pipeline using Redis queues and REST/WebSocket gateways to process concurrent financial trade signals instantly across 4+ trading platforms (MT4, MT5, cTrader, and NinjaTrader).",
         "Implemented real-time connection pooling, cloud trade routing (no personal VPS required), symbol mapping (e.g., GOLD -> XAUUSD), lot multipliers, equity protection thresholds, and drawdown limits.",
         "Optimized database indexing and query architecture via Prisma and PostgreSQL to handle heavy read/write trade activity logs, multi-group routing (up to 20 groups & 60 trading accounts on Pro Plus), and live telemetry without degradation.",
       ],
@@ -566,7 +566,7 @@ export const PORTFOLIO_CONFIG = {
       ],
       telemetry: [
         { metric: "ACTIVE TRADERS", value: "5,000+", delta: "LIVE SCALE" },
-        { metric: "PLATFORMS", value: "8 BROKERS", delta: "MT4/MT5/cTRADER" },
+        { metric: "PLATFORMS", value: "4+ PLATFORMS", delta: "MT4/MT5/cTRADER" },
         { metric: "MAX CAPACITY", value: "60 ACCTS", delta: "20 GROUPS / USER" },
         { metric: "SIGNAL FAN-OUT", value: "< 42ms", delta: "CLOUD ROUTER" },
       ],
@@ -651,9 +651,9 @@ export const PORTFOLIO_CONFIG = {
         "Real-Time Event Ticketing Marketplace With Automated Stripe Connect Multi-Party Payouts",
       status: "LIVE DEPLOYMENT",
       scaleBadge: "Stripe Connect + Real-Time Queue",
-      imageUrl: "/screenshots/ticketr.png",
+      imageUrl: "/screenshots/ticketr.png?v=3",
       description:
-        "A multi-vendor event ticketing platform (ticket-book-three.vercel.app) with real-time ticket availability locking, waiting-list queue orchestration, automated vendor onboarding, and instant split payouts powered by Stripe Connect.",
+        "A multi-vendor event ticketing platform (ticket-book-three.vercel.app) featuring a sleek dark/light editorial interface, real-time ticket availability locking across 12+ live stadium & concert events, waiting-list queue orchestration, automated vendor onboarding, and instant split payouts powered by Stripe Connect.",
       highlights: [
         "Developed a multi-vendor ticketing marketplace with automated payout distribution, event discovery search, and seamless vendor onboarding.",
         "Implemented Stripe Connect for multi-party split payments and webhook-verified transactional integrity under concurrent ticket checkouts.",

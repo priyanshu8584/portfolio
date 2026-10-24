@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
-  <rect width="64" height="64" rx="14" fill="#090A0F" />
-  <rect x="2" y="2" width="60" height="60" rx="12" stroke="#6366F1" stroke-opacity="0.45" stroke-width="2" />
-  <path d="M16 44V20H26.5C31.2 20 34 22.6 34 26.8C34 31 31.2 33.6 26.5 33.6H21.2V44H16ZM21.2 29.2H26C28.1 29.2 29.2 28.2 29.2 26.8C29.2 25.4 28.1 24.4 26 24.4H21.2V29.2Z" fill="#F4F4F5" />
-  <path d="M36.5 37.2H41.5C41.7 39.2 43.3 40.3 45.8 40.3C48.1 40.3 49.6 39.3 49.6 37.7C49.6 36.4 48.5 35.6 45.9 35L42.8 34.3C38.8 33.4 36.9 31.4 36.9 28.1C36.9 24.1 40.2 21.5 45.3 21.5C50.4 21.5 53.7 24.1 53.9 28H49C48.8 26.3 47.4 25.3 45.3 25.3C43.2 25.3 41.9 26.3 41.9 27.7C41.9 29 42.9 29.7 45.4 30.3L48.5 31C52.8 32 54.6 33.9 54.6 37.3C54.6 41.6 51.1 44.3 45.6 44.3C40.1 44.3 36.7 41.6 36.5 37.2Z" fill="#06B6D4" />
-  <circle cx="53" cy="13" r="4" fill="#A3E635" />
+  <rect width="64" height="64" rx="14" fill="#0A0C10" />
+  <rect x="1.5" y="1.5" width="61" height="61" rx="12.5" stroke="#CCFF00" stroke-opacity=".45" />
+  <path d="m19 23 10 9-10 9" stroke="#CCFF00" stroke-linecap="square" stroke-linejoin="miter" stroke-width="5" />
+  <path d="M37 42h10" stroke="#06B6D4" stroke-linecap="square" stroke-width="5" />
 </svg>
