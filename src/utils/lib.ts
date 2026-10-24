@@ -676,44 +676,8 @@ export const PORTFOLIO_CONFIG = {
       architectureSummary:
         "Event Search & Queue -> Real-Time Ticket Inventory Lock -> Stripe Connect Multi-Party Checkout -> Webhook Settlement -> Vendor Payout Ledger.",
       liveUrl: "https://ticket-book-three.vercel.app/",
-      repoUrl: "https://github.com/priyanshu8584",
-      featured: false,
-    },
-    {
-      id: "podcastr",
-      index: "04",
-      name: "Podcastr",
-      codename: "AI PODCAST GENERATOR & STREAMING STUDIO",
-      tagline:
-        "LLM-Powered Long-Form Audio Synthesis, Multi-Voice TTS & Dynamic Streaming Player",
-      status: "LIVE DEPLOYMENT",
-      scaleBadge: "OpenAI LLM + TTS Pipeline",
-      imageUrl: "/screenshots/podcastr.png",
-      description:
-        "An AI-powered podcast creation and streaming platform (podcasting-two.vercel.app) that generates structured long-form podcast episodes, cover artwork, and multi-voice audio using OpenAI LLM + Text-to-Speech pipelines.",
-      highlights: [
-        "Built an end-to-end AI audio pipeline that transforms user prompts into structured long-form podcast scripts and synthesized voice streams.",
-        "Integrated real-time text-to-speech conversion, AI thumbnail generation, creator discovery feeds ('Trending Podcasts' & 'Top Podcastrs'), and a persistent audio playback UI.",
-      ],
-      techTags: [
-        "Next.js",
-        "TypeScript",
-        "OpenAI API",
-        "React.js",
-        "Tailwind CSS",
-        "shadcn/ui",
-      ],
-      telemetry: [
-        { metric: "AUDIO ENGINE", value: "LLM + TTS", delta: "MULTI-VOICE" },
-        { metric: "PLAYER UI", value: "60 FPS", delta: "PERSISTENT" },
-        { metric: "TYPE SAFETY", value: "100%", delta: "TYPESCRIPT" },
-        { metric: "STATUS", value: "LIVE", delta: "PRODUCTION" },
-      ],
-      architectureSummary:
-        "Creator Prompt Input -> OpenAI Script & Voice Synthesis Pipeline -> Cloud Audio Storage -> Next.js Streaming Feed & Persistent Audio Player.",
-      liveUrl: "https://podcasting-two.vercel.app/",
-      repoUrl: "https://github.com/priyanshu8584",
-      featured: false,
+      repoUrl: "https://github.com/priyanshu8584/ticket-book",
+      featured: true,
     },
   ] satisfies ProjectItem[],
 
